@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "01734ce1592f83e81082c16150a453af",
+    "packages": [
+        {
+            "name": "boca/mvc",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../boca",
+                "reference": "6092ea4736b9c0f297b9bf0191aea6d0a14015fd"
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "boca\\mvc\\core\\settings\\": "core/settings",
+                    "boca\\mvc\\core\\Traits\\": "core/Traits"
+                },
+                "files": [
+                    "init.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ghadeer Abd Alhameed",
+                    "email": "gh.abd.alhamedd.97@gmail.com"
+                }
+            ],
+            "description": "description",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "boca/mvc": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.3|^8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "boca/project",
+  "authors": [
+    {
+      "name": "Ghadeer Abd Alhameed"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "boca/mvc": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app"
+    },
+    "files": [
+      "app/app.php"
+    ]
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../boca"
+    }
+  ]
+
+}
