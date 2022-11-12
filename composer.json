@@ -1,13 +1,18 @@
 {
   "name": "boca/project",
+  "description": "framework MVC ",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "project",
+  "version": "1.0.0",
   "authors": [
     {
-      "name": "Ghadeer Abd Alhameed"
+      "name": "Ghadeer Abd Alhameed",
+      "email": "gh.abd.alhamedd.97@gmail.com"
     }
   ],
   "require": {
-    "php": "^7.3|^8.0",
-    "boca/mvc": "dev-main"
+    "php": "^7.3|^8.0"
   },
   "autoload": {
     "psr-4": {
@@ -17,11 +22,7 @@
       "app/app.php"
     ]
   },
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../boca"
-    }
-  ]
+  "devFiles": []
+
 
 }
