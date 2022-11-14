@@ -1,0 +1,13 @@
+#!php
+<?php
+
+
+require "vendor/autoload.php";
+
+$Command = new \boca\console\core\Console();
+
+$Command->Init($argc, $argv);
+
+//$Command->Command("php init.php run");
+
+$Command->excute();

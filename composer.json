@@ -10,9 +10,20 @@
       "email": "gh.abd.alhamedd.97@gmail.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../boca"
+    },
+    {
+      "type": "path",
+      "url": "../boca-console"
+    }
+  ],
   "require": {
     "php": ">=7.4.3",
-    "boca/mvc": "^1.0.0"
+    "boca/mvc": "dev-main",
+    "boca/console": "dev-main"
   },
   "autoload": {
     "psr-4": {
