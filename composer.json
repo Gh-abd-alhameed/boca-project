@@ -13,7 +13,8 @@
   "require": {
     "php": ">=7.4.3",
     "boca/mvc": "^1.0.2",
-    "boca/console": "dev-main"
+    "boca/console": "dev-main",
+    "illuminate/database": "^8.83"
   },
   "autoload": {
     "psr-4": {

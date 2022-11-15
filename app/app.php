@@ -3,22 +3,31 @@
 
 return [
 
-    'url' => "/",
+	'url' => "/",
 
-    'locale' => 'en',
+	'locale' => 'en',
 
-    'available_locales' => [
-        'en' => [
-            "prefix" => "/",
-        ],
-        'ar' => [
-            "prefix" => "/ar"
-        ],
-    ],
+	'available_locales' => [
+		'en' => [
+			"prefix" => "/",
+		],
+		'ar' => [
+			"prefix" => "/ar"
+		],
+	],
 
-    "static_file" => [
-        "assets"
-    ],
+	"static_file" => [
+		"assets"
+	],
 
-    "debug" => true
+	"debug" => true,
+
+	"databases" => [
+		"driver" => "mysql",
+		"host" => "127.0.0.1",
+		"database" => "shop",
+		"username" => "root",
+		"password" => ""
+	]
+
 ];
