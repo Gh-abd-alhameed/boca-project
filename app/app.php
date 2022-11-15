@@ -20,13 +20,14 @@ return [
 
 		],
 	],
-
+	"file_extension"=>[
+		"css","js","pdf","webp","png","jpg"
+	],
 	"static_file" => [
 
 		"assets" =>[
 
 			"prefix"=>"/assets"
-
 		]
 
 	],
