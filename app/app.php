@@ -25,9 +25,8 @@ return [
 	],
 	"static_file" => [
 
-		"assets" =>[
-
-			"prefix"=>"/assets"
+		"public" =>[
+			"prefix"=>"/public"
 		]
 
 	],
