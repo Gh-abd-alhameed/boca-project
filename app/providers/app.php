@@ -2,8 +2,7 @@
 
 
 return [
-
-	'url' => "/",
+	'url' => "/framework",
 	'locale' => 'en',
 	'available_locales' => [
 		'en' => [
