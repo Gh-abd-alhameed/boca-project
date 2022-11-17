@@ -3,7 +3,7 @@
 
 return [
 
-	'url' => "/framework",
+	'url' => "/",
 	'locale' => 'en',
 	'available_locales' => [
 		'en' => [
