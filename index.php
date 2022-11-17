@@ -6,14 +6,14 @@ require __DIR__ . "/vendor/autoload.php";
 
 use app\config\App;
 
-$app_array = require __DIR__ . "/app/app.php";
+$settings = require __DIR__ . "/app/providers/app.php";
 
 $app = new App();
 
-$app->setapp($app_array);
+$app->setapp($settings);
 
 $app->init();
 
-require __DIR__ . "/app/bootstrap.php";
+require __DIR__ . "/app/providers/bootstrap.php";
 
 

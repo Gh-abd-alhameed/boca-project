@@ -18,8 +18,7 @@ class App extends  Init
         $this->initRotePath = $route->providers();
 
     }
-
-
+    
     public function Providers()
     {
         return [
