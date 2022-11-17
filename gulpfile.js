@@ -2,10 +2,10 @@ const gulp = require("gulp"),
     gulpConcat = require("gulp-concat"),
     webp = require("gulp-webp"),
     babel = require("gulp-babel"),
-    cssPrefix = require("autoprefixer"),
+    cssPrefix = require("gulp-autoprefixer"),
     minify = require("gulp-minify");
 
-gulp.task("boca-css", function () {
+gulp.task("boca-css",function () {
     return gulp.src("assets/css/*")
         .pipe(cssPrefix("last 2 versions"))
         .pipe(gulpConcat("main.css"))
