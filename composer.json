@@ -10,15 +10,10 @@
       "email": "gh.abd.alhamedd.97@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../boca"
-    }
-  ],
+
   "require": {
     "php": ">=7.4.3",
-    "boca/mvc": "dev-main",
+    "boca/mvc": "^1.0.3",
     "boca/console": "dev-main",
     "illuminate/database": "^8.83"
   },
