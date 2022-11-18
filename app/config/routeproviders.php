@@ -5,7 +5,6 @@ namespace app\config;
 
 class routeproviders
 {
-
     public function providers()
     {
         return [
